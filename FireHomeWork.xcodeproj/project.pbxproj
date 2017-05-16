@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84C7458C1ECB72B3005D7C5B /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C7458B1ECB72B3005D7C5B /* Login.swift */; };
+		84C7458E1ECB7303005D7C5B /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C7458D1ECB7303005D7C5B /* SignUp.swift */; };
 		84D78F511ECA28BD00922D5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D78F501ECA28BD00922D5F /* AppDelegate.swift */; };
 		84D78F531ECA28BD00922D5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D78F521ECA28BD00922D5F /* ViewController.swift */; };
 		84D78F561ECA28BD00922D5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D78F541ECA28BD00922D5F /* Main.storyboard */; };
@@ -18,6 +20,8 @@
 
 /* Begin PBXFileReference section */
 		7F1C290BD9172DC825B1AF53 /* Pods-FireHomeWork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireHomeWork.release.xcconfig"; path = "Pods/Target Support Files/Pods-FireHomeWork/Pods-FireHomeWork.release.xcconfig"; sourceTree = "<group>"; };
+		84C7458B1ECB72B3005D7C5B /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		84C7458D1ECB7303005D7C5B /* SignUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
 		84D78F4D1ECA28BD00922D5F /* FireHomeWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FireHomeWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84D78F501ECA28BD00922D5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84D78F521ECA28BD00922D5F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +55,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		84C7458A1ECB725B005D7C5B /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				84D78F541ECA28BD00922D5F /* Main.storyboard */,
+				84D78F591ECA28BD00922D5F /* LaunchScreen.storyboard */,
+			);
+			name = StoryBoards;
+			sourceTree = "<group>";
+		};
 		84D78F441ECA28BC00922D5F = {
 			isa = PBXGroup;
 			children = (
@@ -73,10 +86,11 @@
 			isa = PBXGroup;
 			children = (
 				84D78F501ECA28BD00922D5F /* AppDelegate.swift */,
+				84C7458D1ECB7303005D7C5B /* SignUp.swift */,
+				84C7458B1ECB72B3005D7C5B /* Login.swift */,
 				84D78F521ECA28BD00922D5F /* ViewController.swift */,
-				84D78F541ECA28BD00922D5F /* Main.storyboard */,
+				84C7458A1ECB725B005D7C5B /* StoryBoards */,
 				84D78F571ECA28BD00922D5F /* Assets.xcassets */,
-				84D78F591ECA28BD00922D5F /* LaunchScreen.storyboard */,
 				84D78F621ECA28EF00922D5F /* GoogleService-Info.plist */,
 				84D78F5C1ECA28BD00922D5F /* Info.plist */,
 			);
@@ -215,6 +229,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84C7458C1ECB72B3005D7C5B /* Login.swift in Sources */,
+				84C7458E1ECB7303005D7C5B /* SignUp.swift in Sources */,
 				84D78F531ECA28BD00922D5F /* ViewController.swift in Sources */,
 				84D78F511ECA28BD00922D5F /* AppDelegate.swift in Sources */,
 			);
@@ -378,6 +394,7 @@
 				84D78F611ECA28BD00922D5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
