@@ -9,6 +9,8 @@
 import UIKit
 import Firebase
 
+
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -19,14 +21,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         FIRApp.configure()
         
-        FIRAuth.auth()?.signIn(withEmail: "0xffffffffffffffffff@gmail.com", password: "654321ok", completion: { (user:FIRUser?, error:Error?) in
-            if error == nil{
-                print(user?.email! as Any)
-                print(user?.displayName as Any)
-            }else{
-                print(error.debugDescription)
-            }
-        })
+        //FIRAuth.auth()?.signIn(withEmail: "0xffffffffffffffffff@gmail.com", password: "654321ok", completion: { (user:FIRUser?, error:Error?) in
+            //if error == nil{
+               // print(user?.email! as Any)
+                //print(user?.displayName as Any)
+            //}else{
+                //print(error.debugDescription)
+            //}
+        //})
         
         return true
     }

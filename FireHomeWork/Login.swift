@@ -9,8 +9,21 @@
 import UIKit
 import Firebase
 
-class Login: UIViewController {
 
+class Login: UIViewController {
+// MARK :- Instance Builder Portion
+    
+    @IBOutlet var emailOutlet: UITextField!
+    @IBOutlet var passwordOutlate: UITextField!
+   
+    @IBAction func loginButtonPressed(_ sender: Any) {
+    }
+    @IBAction func forgotButtonPressed(_ sender: Any) {
+    }
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
